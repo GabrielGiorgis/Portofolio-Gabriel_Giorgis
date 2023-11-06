@@ -1,0 +1,43 @@
+.presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh; /* Ajusta la altura según tus necesidades */
+  }
+  
+  .text {
+    text-align: center;
+    color: white; /* Color del texto */
+  }
+  
+  h1 {
+    font-size: 1.5rem; /* Tamaño del título */
+    margin-bottom: 0px;
+    letter-spacing: -3px;
+  }
+
+  .color{
+    color: black;
+    padding: 4px;
+    background-color: #810090;
+    border-radius: 15px;
+    box-shadow: 5px -5px 0px #46004e;
+  }
+  
+  p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem; /* Tamaño del texto */
+    letter-spacing: 2px;
+    margin: 0;
+  }
+  
+  .image {
+    flex: 1; /* Ocupa el espacio restante en el contenedor */
+    text-align: center;
+  }
+  
+  .image-landing {
+    filter: grayscale(100%); /* Convierte la imagen a blanco y negro */
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+  }
