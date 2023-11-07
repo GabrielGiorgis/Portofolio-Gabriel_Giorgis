@@ -1,0 +1,64 @@
+/* style-works.css */
+
+/* Estilos generales */
+.works {
+    background-color: #000000; /* Fondo del contenedor de los trabajos */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: #000000; /* Color del título */
+  }
+  
+  .works-container {
+    padding: 0px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Estilos para cada trabajo individual */
+  .work {
+    width: 250px; /* Ancho del cuadro de trabajo */
+    margin: 10px; /* Margen entre trabajos */
+    background-color: #fff; /* Fondo del cuadro de trabajo */
+    border: 2px solid #810090; /* Borde del cuadro de trabajo */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: all 0.5s;
+  }
+  
+  .work:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 15px #810090; /* Sombra suave al pasar el cursor */
+    transition: all 0.5s;
+  }
+
+  .work-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .work-text {
+    margin-top: 10px;
+  }
+  
+  h3 {
+    font-size: 18px; /* Tamaño de fuente del título */
+    color: #333; /* Color del título */
+  }
+
+  .work-icon {
+    max-width: 50px; /* Tamaño máximo del icono de lenguaje */
+    vertical-align: middle; /* Alinear verticalmente con el texto */
+    margin-bottom: 5px;
+  }
+  
+  .work p {
+    font-size: 14px; /* Tamaño de fuente del texto */
+    color: #666; /* Color del texto */
+  }

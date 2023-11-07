@@ -69,6 +69,19 @@ export function Skills() {
                 />
               </div>
             </div>
+            <div className="skills-lvl">
+              <div className='skills-title'>
+                <h2>Herramientas</h2>
+                <button onClick={() => toggleClass("skills-content-tools", "skills-content-view")} className="buttom-more">Ver más</button>
+              </div>
+              <div id ="skills-content-tools" className='skills-content' >
+              <Skill
+                  title="React JS"
+                  image="react"
+                  percent={65}
+                />
+              </div>
+            </div>
           </div>
         </section>
   );
