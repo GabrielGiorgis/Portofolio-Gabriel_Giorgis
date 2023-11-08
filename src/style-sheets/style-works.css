@@ -3,7 +3,6 @@
 /* Estilos generales */
 .works {
     background-color: #000000; /* Fondo del contenedor de los trabajos */
-    padding: 20px;
     text-align: center;
   }
   
@@ -16,7 +15,9 @@
     padding: 0px 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-around;*/
+    gap: 56px;
+    justify-content: center;
   }
   
   /* Estilos para cada trabajo individual */

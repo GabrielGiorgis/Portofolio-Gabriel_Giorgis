@@ -9,7 +9,7 @@ function App() {
       <section className="landing">
         <Landing
           title="Desarrollador Full-Stack"
-          text="Gabriel Giorgis"
+          text="Gabriel Giorgis "
           image={"portofolio"}
         />
       </section>
