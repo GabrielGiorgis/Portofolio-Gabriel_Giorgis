@@ -4,7 +4,7 @@ import '../style-sheets/style-skills.css';
 export function Skill(props) {
     return (
         <div className="skill">
-            <img src={require(`../../public/img/icons/${props.image}.png`)} alt={props.title} />
+            <img src={require(`../assets/img/icons/${props.image}.png`)} alt={props.title} />
                 <div className="skill-text">    
                     <h3>{props.title}</h3>
                     <ProgressBar percent={props.percent} /> {/* Agrega la barra de progreso */}
@@ -15,7 +15,7 @@ export function Skill(props) {
 
 export function Skills() {
   return(
-    <section className="skills">
+    <section className="skills" id="skills">
           <h3 className="title">Habilidades</h3>
           <div className="skills-container">
             <div className="skills-lvl">

@@ -2,10 +2,13 @@ import './App.css';
 import {Landing} from './components/Landing';
 import {Skills} from './components/Skills';
 import {Works} from './components/Works';
-import Resume from './components/Resume';
+import {Header} from './components/Header-Footer';
 function App() {
   return (
     <div className="App">
+      <Header 
+        image="logo"
+      />
       <section className="landing">
         <Landing
           title="Desarrollador Full-Stack"
@@ -15,6 +18,7 @@ function App() {
       </section>
       <Skills />
       <Works />
+      <Header />
     </div>
   );
 }

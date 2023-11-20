@@ -1,6 +1,9 @@
 /* style-works.css */
 
 /* Estilos generales */
+#works {
+  scroll-margin-top: 100px;
+}
 .works {
     background-color: #000000; /* Fondo del contenedor de los trabajos */
     text-align: center;
