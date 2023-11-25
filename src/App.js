@@ -2,24 +2,25 @@ import './App.css';
 import {Landing} from './components/Landing';
 import {Skills} from './components/Skills';
 import {Works} from './components/Works';
-import {Header} from './components/Header-Footer';
+import {Footer, Header} from './components/Header-Footer';
+import { ContactForm } from './components/Form-Contact';
 function App() {
   return (
     <div className="App">
       <Header 
         image="logo"
       />
-      <section className="landing">
         <Landing
           title="Desarrollador Full-Stack"
           text="Gabriel Giorgis "
           image={"portofolio"}
         />
-      </section>
       <Skills />
       <Works />
-      <Header />
+      <ContactForm />
+      <Footer/>
     </div>
+    
   );
 }
 

@@ -6,8 +6,26 @@ body{
 
 /* LANDING */
 
-.landing{
+
+.hidden{
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0s;
+  position: fixed;
+  pointer-events: none;
+}
+
+.visible{
   display: flex;
   justify-content: center;
-}
+  align-items: center;
+  opacity: 1;
+  height: 100vh;
+  width: 100vw;
+  transition: all 2s;
+  position: fixed;
+  pointer-events: auto;
+} 
 

@@ -1,6 +1,6 @@
-import React from "react";
-import ProgressBar from "./Progres-Bar";
 import '../style-sheets/style-skills.css';
+import React, { useState, useEffect } from "react";
+import '../style-sheets/style-progressBar.css';
 export function Skill(props) {
     return (
         <div className="skill">
@@ -15,8 +15,8 @@ export function Skill(props) {
 
 export function Skills() {
   return(
-    <section className="skills" id="skills">
-          <h3 className="title">Habilidades</h3>
+    <section className="hidden" id="skills">
+      <div className="skills">
           <div className="skills-container">
             <div className="skills-lvl">
               <div className='skills-title'>
@@ -83,7 +83,8 @@ export function Skills() {
               </div>
             </div>
           </div>
-        </section>
+      </div>
+    </section>
   );
 }
 
@@ -99,6 +100,22 @@ function toggleClass(id, newClass){
   }
   
 }
+
+const ProgressBar = ({ percent }) => {
+  const [width, setWidth] = useState(0);
+
+  useEffect(() => {
+    setWidth(percent);
+  }, [percent]);
+
+  return (
+    <div className="progress-bar-container">
+      <div className="progress-bar" style={{ width: `${width}%` }}>
+        {width}%
+      </div>
+    </div>
+  );
+};
 
 /*export function showSkills(id) {
     const skills = document.getElementById(id);

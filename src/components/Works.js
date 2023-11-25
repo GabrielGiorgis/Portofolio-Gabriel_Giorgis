@@ -16,27 +16,28 @@ export function Work(props){
 
 export function Works() {
   return(
-    <section className="works" id="works">
-      <h3 className="title">Trabajos</h3>
-      <div className="works-container">
-        <Work
-          title="Programacion por voz"
-          text="Speech Recognition, Tkinter"
-          image="work"
-          languaje="python"
-        />
-        <Work
-          title="Calculadora"
-          text="Windows Forms"
-          image="work"
-          languaje="c-sharp"
-        />
-        <Work
-          title="Biblioteca online"
-          text="SPRING, MySQL"
-          image="work"
-          languaje="java"
-        />
+    <section className="hidden" id="works">
+      <div className="works">
+        <div className="works-container">
+          <Work
+            title="Programacion por voz"
+            text="Speech Recognition, Tkinter"
+            image="work"
+            languaje="python"
+          />
+          <Work
+            title="Calculadora"
+            text="Windows Forms"
+            image="work"
+            languaje="c-sharp"
+          />
+          <Work
+            title="Biblioteca online"
+            text="SPRING, MySQL"
+            image="work"
+            languaje="java"
+          />
+        </div>
       </div>
     </section>
   );

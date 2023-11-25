@@ -1,9 +1,10 @@
+
 .presentation {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
-    height: 100vh; /* Ajusta la altura según tus necesidades */
+    height: 100%; /* Ajusta la altura según tus necesidades */
   }
   
   .text {
@@ -12,9 +13,9 @@
   }
   
   h1 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem; /* Tamaño del título */
     margin-bottom: 0px;
-    letter-spacing: -3px;
   }
 
   .color{
@@ -26,9 +27,8 @@
   }
   
   p{
-    font-family: 'Bebas Neue', sans-serif;
     font-size: 5rem; /* Tamaño del texto */
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin: 0;
   }
   

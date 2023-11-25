@@ -1,6 +1,3 @@
-#skills {
-  scroll-margin-top: 100px;
-}
 .skill {
     display: flex;
     flex-direction: column;
@@ -25,17 +22,6 @@
     align-items: center;
   }
   
-  .title {
-    display: flex;
-    justify-content: center;
-    width: 25%;
-    font-size: 1.5rem; /* Tamaño del título */
-    margin: 8px 0; /* Espacio entre el título y el párrafo */
-    color: black;
-    padding: 8px;
-    background-color: #810090;
-    box-shadow: 10px 0px 0px #46004e;;
-  }
 
   /* SKILLS */
 
@@ -47,9 +33,6 @@
   align-items: space-around;
   flex-direction: column;
   font-size: 2rem;
-  background-image: url('../assets/img//backgrounds/background-skills.png');
-  background-size: cover;
-  background-position: center;
   height: auto;
   padding: 16px;
 
@@ -70,14 +53,15 @@
   max-width: 300px;
 }
 .buttom-more{
-  background-color: #810090;
+  background-color: #000;
   color: #fff;
   border: none;
   font-size: 1.2rem;
   padding: 8px;
   border-radius: 20px;
   transition: all 0.5s;
-  box-shadow: 3px -3px 0px #46004e;
+  border: 1px solid #810090;
+  font-family:'Sono', monospace;
 }
 .buttom-more:hover{
   background-color: #46004e;

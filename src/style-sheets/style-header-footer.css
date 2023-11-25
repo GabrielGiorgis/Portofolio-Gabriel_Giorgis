@@ -7,6 +7,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: rgb(0, 0, 0);
+    z-index: 1000;
 }
 header *{
     margin: 8px;
@@ -35,7 +36,7 @@ header *{
 .nav a{
     text-decoration: none;
     color: #fff;
-    font-size: 24px;
+    font-size: 16px;
 }
 .nav li{
     border-right: 1px solid #810090;
@@ -44,7 +45,7 @@ header *{
     transition: all 0.2s;
 }
 .nav li:hover{
-    color: #810090;
+    
     transition: all 0.2s;
 }
 
@@ -73,3 +74,30 @@ header *{
     transition: all 0.3s;
     border: 1px solid #000;
 }
+
+/* FOOTER */
+
+.footer-container {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    width: 30px; /* Ajusta el tamaño según tus preferencias */
+    margin: 0 10px;
+  }
+  
+  .copyright {
+    font-size: 14px;
+  }
