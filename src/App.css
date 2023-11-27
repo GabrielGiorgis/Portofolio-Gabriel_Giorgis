@@ -4,10 +4,17 @@ body{
   padding: 0;
 }
 
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* LANDING */
 
-
 .hidden{
+  display: flex;
   justify-content: center;
   align-items: center;
   opacity: 0;
@@ -15,6 +22,7 @@ body{
   transition: all 0s;
   position: fixed;
   pointer-events: none;
+  padding: 24px;
 }
 
 .visible{
@@ -22,10 +30,10 @@ body{
   justify-content: center;
   align-items: center;
   opacity: 1;
-  height: 100vh;
-  width: 100vw;
-  transition: all 2s;
-  position: fixed;
+  height: 70vh;
+  width: 90vw;
+  transition: all 3s;
   pointer-events: auto;
+  padding: 24px;
 } 
 

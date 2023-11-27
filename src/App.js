@@ -6,20 +6,19 @@ import {Footer, Header} from './components/Header-Footer';
 import { ContactForm } from './components/Form-Contact';
 function App() {
   return (
-    <div className="App">
-      <Header 
-        image="logo"
+    <><Header
+      image="logo" 
       />
+      <div className="App">
         <Landing
           title="Desarrollador Full-Stack"
           text="Gabriel Giorgis "
-          image={"portofolio"}
-        />
-      <Skills />
-      <Works />
-      <ContactForm />
-      <Footer/>
-    </div>
+          image={"portofolio"} />
+        <Skills />
+        <Works />
+        <ContactForm />
+        <Footer />
+      </div></>
     
   );
 }
